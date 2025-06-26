@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Estudiante\\source\\repos\\Ejercicio 7\\",
+  "WorkspaceRootPath": "C:\\Users\\danie\\OneDrive\\Desktop\\Ejercicio 7\\Ejercicio-7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F977395C-086E-4362-9434-DD79125B51E5}|Ejercicio 7.csproj|c:\\users\\estudiante\\source\\repos\\ejercicio 7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F977395C-086E-4362-9434-DD79125B51E5}|Ejercicio 7.csproj|c:\\users\\danie\\onedrive\\desktop\\ejercicio 7\\ejercicio-7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F977395C-086E-4362-9434-DD79125B51E5}|Ejercicio 7.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F977395C-086E-4362-9434-DD79125B51E5}|Ejercicio 7.csproj|c:\\users\\estudiante\\source\\repos\\ejercicio 7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F977395C-086E-4362-9434-DD79125B51E5}|Ejercicio 7.csproj|C:\\Users\\danie\\OneDrive\\Desktop\\Ejercicio 7\\Ejercicio-7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F977395C-086E-4362-9434-DD79125B51E5}|Ejercicio 7.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\source\\repos\\Ejercicio 7\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Ejercicio 7\\Ejercicio-7\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\source\\repos\\Ejercicio 7\\Form1.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Ejercicio 7\\Ejercicio-7\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T17:51:21.644Z",
               "EditorCaption": ""
@@ -37,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\source\\repos\\Ejercicio 7\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Desktop\\Ejercicio 7\\Ejercicio-7\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\source\\repos\\Ejercicio 7\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Desktop\\Ejercicio 7\\Ejercicio-7\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T17:05:07.93Z",

@@ -33,17 +33,17 @@
             this.pnlBlanco = new System.Windows.Forms.Panel();
             this.pnlRojo = new System.Windows.Forms.Panel();
             this.gbDatos = new System.Windows.Forms.GroupBox();
-            this.gbResultado = new System.Windows.Forms.GroupBox();
-            this.lblPresentacion = new System.Windows.Forms.Label();
-            this.lblDolares = new System.Windows.Forms.Label();
-            this.lblResultado = new System.Windows.Forms.Label();
-            this.lblPesos = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.btnConversion = new System.Windows.Forms.Button();
-            this.btnOtraConversion = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
             this.lblError = new System.Windows.Forms.Label();
+            this.btnOtraConversion = new System.Windows.Forms.Button();
+            this.btnConversion = new System.Windows.Forms.Button();
+            this.txtCantidadDolares = new System.Windows.Forms.TextBox();
+            this.lblDolares = new System.Windows.Forms.Label();
+            this.lblPresentacion = new System.Windows.Forms.Label();
+            this.gbResultado = new System.Windows.Forms.GroupBox();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.txtResultado = new System.Windows.Forms.TextBox();
+            this.lblPesos = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.gbDatos.SuspendLayout();
             this.gbResultado.SuspendLayout();
             this.SuspendLayout();
@@ -77,7 +77,7 @@
             this.gbDatos.Controls.Add(this.lblError);
             this.gbDatos.Controls.Add(this.btnOtraConversion);
             this.gbDatos.Controls.Add(this.btnConversion);
-            this.gbDatos.Controls.Add(this.textBox1);
+            this.gbDatos.Controls.Add(this.txtCantidadDolares);
             this.gbDatos.Controls.Add(this.lblDolares);
             this.gbDatos.Controls.Add(this.lblPresentacion);
             this.gbDatos.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -88,70 +88,25 @@
             this.gbDatos.TabIndex = 3;
             this.gbDatos.TabStop = false;
             // 
-            // gbResultado
+            // lblError
             // 
-            this.gbResultado.Controls.Add(this.btnSalir);
-            this.gbResultado.Controls.Add(this.textBox2);
-            this.gbResultado.Controls.Add(this.lblPesos);
-            this.gbResultado.Controls.Add(this.lblResultado);
-            this.gbResultado.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbResultado.ForeColor = System.Drawing.SystemColors.Control;
-            this.gbResultado.Location = new System.Drawing.Point(12, 451);
-            this.gbResultado.Name = "gbResultado";
-            this.gbResultado.Size = new System.Drawing.Size(1178, 294);
-            this.gbResultado.TabIndex = 4;
-            this.gbResultado.TabStop = false;
+            this.lblError.AutoSize = true;
+            this.lblError.ForeColor = System.Drawing.Color.Red;
+            this.lblError.Location = new System.Drawing.Point(27, 275);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(58, 25);
+            this.lblError.TabIndex = 5;
+            this.lblError.Text = "Error";
             // 
-            // lblPresentacion
+            // btnOtraConversion
             // 
-            this.lblPresentacion.AutoSize = true;
-            this.lblPresentacion.Location = new System.Drawing.Point(27, 44);
-            this.lblPresentacion.Name = "lblPresentacion";
-            this.lblPresentacion.Size = new System.Drawing.Size(469, 25);
-            this.lblPresentacion.TabIndex = 0;
-            this.lblPresentacion.Text = "Este programa convierte dolares a pesos mexicanos";
-            // 
-            // lblDolares
-            // 
-            this.lblDolares.AutoSize = true;
-            this.lblDolares.Location = new System.Drawing.Point(69, 150);
-            this.lblDolares.Name = "lblDolares";
-            this.lblDolares.Size = new System.Drawing.Size(282, 25);
-            this.lblDolares.TabIndex = 1;
-            this.lblDolares.Text = "Ingresa la cantidad de dolares:";
-            // 
-            // lblResultado
-            // 
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(39, 77);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(180, 30);
-            this.lblResultado.TabIndex = 2;
-            this.lblResultado.Text = "La conversion es:";
-            // 
-            // lblPesos
-            // 
-            this.lblPesos.AutoSize = true;
-            this.lblPesos.Location = new System.Drawing.Point(80, 159);
-            this.lblPesos.Name = "lblPesos";
-            this.lblPesos.Size = new System.Drawing.Size(318, 30);
-            this.lblPesos.TabIndex = 3;
-            this.lblPesos.Text = "Cantidad equivalente en pesos:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(74, 178);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(511, 33);
-            this.textBox1.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(425, 159);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(415, 35);
-            this.textBox2.TabIndex = 4;
+            this.btnOtraConversion.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnOtraConversion.Location = new System.Drawing.Point(739, 193);
+            this.btnOtraConversion.Name = "btnOtraConversion";
+            this.btnOtraConversion.Size = new System.Drawing.Size(399, 139);
+            this.btnOtraConversion.TabIndex = 4;
+            this.btnOtraConversion.Text = "Hacer otra conversion";
+            this.btnOtraConversion.UseVisualStyleBackColor = true;
             // 
             // btnConversion
             // 
@@ -164,15 +119,44 @@
             this.btnConversion.UseVisualStyleBackColor = true;
             this.btnConversion.Click += new System.EventHandler(this.btnConversion_Click);
             // 
-            // btnOtraConversion
+            // txtCantidadDolares
             // 
-            this.btnOtraConversion.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnOtraConversion.Location = new System.Drawing.Point(739, 193);
-            this.btnOtraConversion.Name = "btnOtraConversion";
-            this.btnOtraConversion.Size = new System.Drawing.Size(399, 139);
-            this.btnOtraConversion.TabIndex = 4;
-            this.btnOtraConversion.Text = "Hacer otra conversion";
-            this.btnOtraConversion.UseVisualStyleBackColor = true;
+            this.txtCantidadDolares.Location = new System.Drawing.Point(74, 178);
+            this.txtCantidadDolares.Name = "txtCantidadDolares";
+            this.txtCantidadDolares.Size = new System.Drawing.Size(511, 33);
+            this.txtCantidadDolares.TabIndex = 2;
+            // 
+            // lblDolares
+            // 
+            this.lblDolares.AutoSize = true;
+            this.lblDolares.Location = new System.Drawing.Point(69, 150);
+            this.lblDolares.Name = "lblDolares";
+            this.lblDolares.Size = new System.Drawing.Size(282, 25);
+            this.lblDolares.TabIndex = 1;
+            this.lblDolares.Text = "Ingresa la cantidad de dolares:";
+            // 
+            // lblPresentacion
+            // 
+            this.lblPresentacion.AutoSize = true;
+            this.lblPresentacion.Location = new System.Drawing.Point(27, 44);
+            this.lblPresentacion.Name = "lblPresentacion";
+            this.lblPresentacion.Size = new System.Drawing.Size(469, 25);
+            this.lblPresentacion.TabIndex = 0;
+            this.lblPresentacion.Text = "Este programa convierte dolares a pesos mexicanos";
+            // 
+            // gbResultado
+            // 
+            this.gbResultado.Controls.Add(this.btnSalir);
+            this.gbResultado.Controls.Add(this.txtResultado);
+            this.gbResultado.Controls.Add(this.lblPesos);
+            this.gbResultado.Controls.Add(this.lblResultado);
+            this.gbResultado.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbResultado.ForeColor = System.Drawing.SystemColors.Control;
+            this.gbResultado.Location = new System.Drawing.Point(12, 451);
+            this.gbResultado.Name = "gbResultado";
+            this.gbResultado.Size = new System.Drawing.Size(1178, 294);
+            this.gbResultado.TabIndex = 4;
+            this.gbResultado.TabStop = false;
             // 
             // btnSalir
             // 
@@ -185,22 +169,38 @@
             this.btnSalir.Text = "Salir ";
             this.btnSalir.UseVisualStyleBackColor = false;
             // 
-            // lblError
+            // txtResultado
             // 
-            this.lblError.AutoSize = true;
-            this.lblError.ForeColor = System.Drawing.Color.Red;
-            this.lblError.Location = new System.Drawing.Point(27, 275);
-            this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(58, 25);
-            this.lblError.TabIndex = 5;
-            this.lblError.Text = "Error";
+            this.txtResultado.Location = new System.Drawing.Point(425, 159);
+            this.txtResultado.Name = "txtResultado";
+            this.txtResultado.ReadOnly = true;
+            this.txtResultado.Size = new System.Drawing.Size(415, 35);
+            this.txtResultado.TabIndex = 4;
+            // 
+            // lblPesos
+            // 
+            this.lblPesos.AutoSize = true;
+            this.lblPesos.Location = new System.Drawing.Point(80, 159);
+            this.lblPesos.Name = "lblPesos";
+            this.lblPesos.Size = new System.Drawing.Size(318, 30);
+            this.lblPesos.TabIndex = 3;
+            this.lblPesos.Text = "Cantidad equivalente en pesos:";
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Location = new System.Drawing.Point(39, 77);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(180, 30);
+            this.lblResultado.TabIndex = 2;
+            this.lblResultado.Text = "La conversion es:";
             // 
             // fmrPesosADolares
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlText;
-            this.ClientSize = new System.Drawing.Size(1202, 757);
+            this.ClientSize = new System.Drawing.Size(1202, 749);
             this.Controls.Add(this.gbResultado);
             this.Controls.Add(this.gbDatos);
             this.Controls.Add(this.pnlRojo);
@@ -231,9 +231,9 @@
         private System.Windows.Forms.Label lblError;
         private System.Windows.Forms.Button btnOtraConversion;
         private System.Windows.Forms.Button btnConversion;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCantidadDolares;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtResultado;
     }
 }
 

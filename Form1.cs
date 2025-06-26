@@ -22,11 +22,43 @@ namespace Ejercicio_7
         public fmrPesosADolares()
         {
             InitializeComponent();
+            lblError.Text = string.Empty;
         }
 
         private void btnConversion_Click(object sender, EventArgs e)
         {
-            if ()
+            if (string.IsNullOrEmpty(txtCantidadDolares.Text))
+            {
+                lblError.Text = "Ingrese un valor en dolares";
+            }
+            else
+            {
+                double dolares, conversionPesos;
+                dolares = double.Parse(txtCantidadDolares.Text);
+                if (dolares <= 0)
+                {
+                    lblError.Text = "Por favor ingrese un valor positivo o m ayor a 0";
+                }
+                else
+                {
+                    conversionPesos = dolares * 18.92;
+                    txtResultado.Text = conversionPesos.ToString();
+                    lblError.Text = "";
+                    txtCantidadDolares.ReadOnly = true;
+                }
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnOtraConversion_Click(object sender, EventArgs e)
+        {
+            txtCantidadDolares.ReadOnly = false;
+            txtCantidadDolares.Clear();
+            txtResultado.Clear();
         }
     }
 }
